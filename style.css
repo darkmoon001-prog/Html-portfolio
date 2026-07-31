@@ -1,0 +1,74 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 1000px;
+}
+
+.container{
+    padding: 0;
+    margin: 0;
+}
+
+.head{
+position: fixed;
+background: #ffffff;
+top: 0;
+left: 0;
+width: 100%;
+border-bottom: 2px solid #1538ff;
+text-align: center;
+}
+.lagos{
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #1538ff;
+}
+.port{
+    font-size: 10px;
+    margin-top: 0;
+    color: rgb(96 96 96)
+}
+.hed{
+    background: #1538ff;
+    color: white;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 2px;
+    width: 270px;
+}
+.main{
+    border: 1px solid black;
+    width: 256px;
+    margin: 0 auto;
+    padding: 8px;
+}
+.jamb{
+    font-size: 9px;
+    color: rgb(96 96 96)
+    text-align: center;
+}
+.reg{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input{
+    width: 245px;
+    padding: 5px;
+}
+button{
+display: block;
+    background: #1538ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 258px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+.home{
+    font-size: 13px;
+    text-decoration: underline;
+    color: brown;
+    text-align: center;
+}
