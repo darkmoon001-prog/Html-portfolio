@@ -1,0 +1,44 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+h1, h2{
+  text-align: center;
+  color: red;
+  background: yellow;
+  margin: 0;
+}
+img{
+  width: 100%;
+  position: cover;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.web{
+  display: grid;
+  grid-template: row;
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
+button{
+  background: skyblue;
+  border: none;
+  padding: 20px;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  margin: 5px;
+  align-items: center;
+}
+.visit{
+  background: red;
+  width: 250px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  margin: 0 auto;
+}
